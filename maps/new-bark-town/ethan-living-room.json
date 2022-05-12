@@ -65,7 +65,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"..\/..\/\/src\/assets\/audio\/10_New_Bark_Town.mp3"
+                 "value":"src\/assets\/audio\/10_New_Bark_Town.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
