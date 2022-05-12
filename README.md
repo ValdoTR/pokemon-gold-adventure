@@ -9,7 +9,7 @@ This is a [WorkAdventure](https://workadventu.re/) world with the Game Boy game 
 #### New Bark Town
 
 - [x] Ethan's bedroom
-- [ ] Ethan's living room
+- [x] Ethan's living room
 
 ## Installation
 
