@@ -8,9 +8,9 @@ This is a [WorkAdventure](https://workadventu.re/) world with the Game Boy game 
 
 Maps without link are not done yet.
 
-### New Bark Town
+#### New Bark Town
 
-* [Ethan's bedroom](https://valdotr.github.io/pokemon-gold-world/maps/new-bark-town/ethan-bedroom.json)
+* [Ethan's bedroom](https://play.workadventu.re/@/valdo/pokemon-gold/ethan-bedroom)
 * Ethan's living room
 
 ## Installation
