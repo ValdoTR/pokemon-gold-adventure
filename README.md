@@ -1,4 +1,4 @@
-# 'Pokemon Gold' like world
+# Pokémon Gold Adventure
 
 ![image](https://user-images.githubusercontent.com/14997703/168137469-61f6df62-f797-4534-b22b-b761d4273f17.png)
 
