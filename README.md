@@ -1,6 +1,6 @@
-![Illustration](https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_color_5/H2x1_GBC_PokemonGold_enGB.jpg)
-
 # 'Pokemon Gold' like world
+
+![image](https://user-images.githubusercontent.com/14997703/168137469-61f6df62-f797-4534-b22b-b761d4273f17.png)
 
 This is a [WorkAdventure](https://workadventu.re/) world with the Game Boy game [Pokemon Gold](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver "Wikipedia") maps.
 
