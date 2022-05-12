@@ -1,10 +1,17 @@
-# WorkAdventure Map Starter Kit
+![Illustration](https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/game_boy_color_5/H2x1_GBC_PokemonGold_enGB.jpg)
 
-![map](./map.png)
+# 'Pokemon Gold' like world
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+This is a [WorkAdventure](https://workadventu.re/) world with the Game Boy game [Pokemon Gold](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver "Wikipedia") maps.
 
-To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
+## Progress
+
+Maps without link are not done yet.
+
+### New Bark Town
+
+* [Ethan's bedroom](https://valdotr.github.io/pokemon-gold-world/maps/new-bark-town/ethan-bedroom.json)
+* Ethan's living room
 
 ## Installation
 
@@ -22,6 +29,17 @@ This project contains multiple licenses as follows:
 * [Code license](./LICENSE.code) *(all files except those for other licenses)*
 * [Map license](./LICENSE.map) *(`map.json` and the map visual as well)*
 * [Assets license](./LICENSE.assets) *(the files inside the `src/assets/` folder)*
+
+## Credits
+
+This is a personal project and it makes no sense to put a licence or credits for this as it's not legal to make any stuff with official Pokemon assets... 
+
+But let's credit the original game creators anyway:
+- Developed by [Game Freak](https://www.gamefreak.co.jp/)
+- Published by [Nintendo](https://www.nintendo.com/)
+- Pokémon modeling by [Creatures](https://www.creatures.co.jp/)
+- Music by [Junichi Masuda](https://en.wikipedia.org/wiki/Junichi_Masuda)
+- Licensing by [The Pokémon Company](https://www.pokemon.com/)
 
 ### About third party assets
 
