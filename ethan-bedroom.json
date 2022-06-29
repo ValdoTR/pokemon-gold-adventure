@@ -15,24 +15,6 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 5191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":6,
-         "id":49,
-         "name":"to-ethan-living-room",
-         "opacity":1,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"\/@\/valdo\/pokemon-gold\/ethan-living-room#from-ethan-bedroom"
-                }],
-         "type":"tilelayer",
-         "visible":true,
-         "width":8,
-         "x":0,
-         "y":0
-        }, 
-        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":6,
          "id":50,
@@ -51,25 +33,53 @@
          "y":0
         }, 
         {
-         "data":[5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196],
+         "data":[0, 0, 0, 0, 0, 0, 0, 5191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":6,
-         "id":54,
-         "name":"music",
+         "id":49,
+         "name":"to-ethan-living-room",
          "opacity":1,
          "properties":[
                 {
-                 "name":"audioLoop",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"playAudio",
+                 "name":"exitUrl",
                  "type":"string",
-                 "value":"audio\/10_New_Bark_Town.mp3"
+                 "value":"\/@\/valdo\/pokemon-gold\/ethan-living-room#from-ethan-bedroom"
                 }],
          "type":"tilelayer",
          "visible":true,
          "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":55,
+         "layers":[
+                {
+                 "data":[5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196],
+                 "height":6,
+                 "id":54,
+                 "name":"New_Bark_Town",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"audio\/10_New_Bark_Town.mp3"
+                        }],
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":8,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"audio",
+         "opacity":1,
+         "type":"group",
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -120,7 +130,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":55,
+ "nextlayerid":56,
  "nextobjectid":13,
  "orientation":"orthogonal",
  "properties":[
@@ -138,11 +148,6 @@
          "name":"mapImage",
          "type":"string",
          "value":"ethan-bedroom.png"
-        }, 
-        {
-         "name":"mapLink",
-         "type":"string",
-         "value":"https:\/\/valdotr.github.io\/pokemon-gold-world\/maps\/new-bark-town\/ethan-bedroom.json"
         }, 
         {
          "name":"mapName",
