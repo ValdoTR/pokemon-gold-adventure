@@ -83,6 +83,11 @@
                  "value":true
                 }, 
                 {
+                 "name":"audioVolume",
+                 "type":"float",
+                 "value":0.3
+                }, 
+                {
                  "name":"playAudio",
                  "type":"string",
                  "value":"audio\/10_New_Bark_Town.mp3"
