@@ -8,8 +8,6 @@ const worldZones = [
     "route-29"
 ];
 
-const baseUrl = "/@/valdo/pokemon-gold/"
-let exitUrl = ""
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -20,7 +18,6 @@ WA.onInit().then(() => {
     worldZones.forEach((z) => {
         const zone = "zones/"+z
         const zoneText = "zones-text/"+z
-        exitUrl = baseUrl + z
 
         WA.room.onLeaveLayer(zone).subscribe(() => WA.room.hideLayer(zoneText))
         WA.room.onEnterLayer(zone).subscribe(() => WA.room.showLayer(zoneText))
