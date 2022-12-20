@@ -146,7 +146,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"audio\/10_New_Bark_Town.mp3"
+                         "value":"audio\/{{{ audioFile }}}"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -319,6 +319,34 @@
                  "width":0,
                  "x":160,
                  "y":224
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":15,
+                 "name":"audioFile",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"10_New_Bark_Town.mp3"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Audio file name"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":160,
+                 "y":128
                 }],
          "opacity":1,
          "properties":[
@@ -352,7 +380,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":15,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "properties":[
         {
