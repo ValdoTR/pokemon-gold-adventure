@@ -57,7 +57,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/valdo\/pokemon-gold\/ethan-living-room#from-j1-ethan-bedroom"
+                 "value":"\/@\/valdo\/pokemon-gold\/j1-ethan-living-room#from-j1-ethan-bedroom"
                 }],
          "type":"tilelayer",
          "visible":true,
