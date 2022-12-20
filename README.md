@@ -11,10 +11,8 @@ Here is the list of all the maps by walkthrough order:
 ## Johto
 
 - [x] New Bark Town
-- [ ] Route 29
+- [x] Route 29
 - [ ] Cherrygrove City
-- [ ] Mr. Pokémon's House
-- [ ] Back to New Bark Town
 - [ ] Routes 30 & 31
 - [ ] Dark Cave
 - [ ] Violet City
@@ -38,14 +36,12 @@ Here is the list of all the maps by walkthrough order:
 - [ ] Lighthouse
 - [ ] Routes 40 & 41
 - [ ] Cianwood City
-- [ ] Olivine Gym & Johto Side Quests
 - [ ] Route 42
 - [ ] Mahogany Town
 - [ ] Route 43
 - [ ] Lake of Rage
 - [ ] Rocket Hideout
 - [ ] Radio Tower
-- [ ] Return to Ecruteak City (Crystal)
 - [ ] Route 44
 - [ ] Ice Path
 - [ ] Blackthorn City
@@ -88,7 +84,6 @@ Here is the list of all the maps by walkthrough order:
 - [ ] Route 1
 - [ ] Pallet Town
 - [ ] Routes 19, 20 & 21
-- [ ] Viridian Gym
 - [ ] Route 22
 - [ ] Route 28
 - [ ] Mt. Silver
