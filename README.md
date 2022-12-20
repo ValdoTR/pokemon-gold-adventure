@@ -10,7 +10,7 @@ Here is the list of all the maps by walkthrough order:
 
 ## Johto
 
-- [] New Bark Town
+- [x] New Bark Town
 - [] Route 29
 - [] Cherrygrove City
 - [] Mr. Pokémon's House
