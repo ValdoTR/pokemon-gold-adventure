@@ -122,42 +122,32 @@
          "y":0
         }, 
         {
-         "id":57,
-         "layers":[
-                {
-                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 "height":8,
-                 "id":54,
-                 "name":"New_Bark_Town",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"audioLoop",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"playAudio",
-                         "type":"string",
-                         "value":"audio\/10_New_Bark_Town.mp3"
-                        }],
-                 "type":"tilelayer",
-                 "visible":true,
-                 "width":10,
-                 "x":0,
-                 "y":0
-                }],
+         "data":[5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196,
+            5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196, 5196],
+         "height":8,
+         "id":61,
          "name":"audio",
          "opacity":1,
-         "type":"group",
+         "properties":[
+                {
+                 "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"playAudio",
+                 "type":"string",
+                 "value":"audio\/{{{ audioFile }}}"
+                }],
+         "type":"tilelayer",
          "visible":true,
+         "width":10,
          "x":0,
          "y":0
         }, 
@@ -319,6 +309,34 @@
                  "width":0,
                  "x":288,
                  "y":160
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":15,
+                 "name":"audioFile",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"10_New_Bark_Town.mp3"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Audio file name"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":160,
+                 "y":160
                 }],
          "opacity":1,
          "properties":[
@@ -351,8 +369,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":61,
- "nextobjectid":15,
+ "nextlayerid":62,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "properties":[
         {
