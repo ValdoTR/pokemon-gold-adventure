@@ -4204,7 +4204,29 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":42,
+                 "id":13,
+                 "name":"WIP",
+                 "rotation":0,
+                 "visible":true,
+                 "width":88,
+                 "x":3574,
+                 "y":3008
+                }, 
+                {
+                 "class":"",
+                 "height":64,
+                 "id":14,
+                 "name":"WIPPopup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":128,
+                 "x":3552,
+                 "y":2912
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -4335,7 +4357,7 @@
          "y":0
         }],
  "nextlayerid":87,
- "nextobjectid":13,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "properties":[
         {
