@@ -32,13 +32,13 @@
             0, 0, 5191, 5191, 0, 0, 0, 0],
          "height":8,
          "id":49,
-         "name":"to-j1-new-bark-town",
+         "name":"to-south",
          "opacity":1,
          "properties":[
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/valdo\/pokemon-gold\/johto#from-j1-woman-house"
+                 "value":"{{{ exitSouthURL }}}"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -68,7 +68,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"audio\/10_New_Bark_Town.mp3"
+                 "value":"audio\/{{{ audioFile }}}"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -165,6 +165,84 @@
         },
     
         {
+         "draworder":"topdown",
+         "id":59,
+         "name":"configuration",
+         "objects":[
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":13,
+                 "name":"exitSouthURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"A room URL starts with \"\/@\/\".\ne.g.: \"\/@\/my-organization\/my-world\/my-room\""
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"South exit URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":96,
+                 "y":224
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":14,
+                 "name":"audioFile",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"10_New_Bark_Town.mp3"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Audio file name"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":160,
+                 "y":224
+                }],
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"tag",
+                 "type":"string",
+                 "value":"admin"
+                }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0,
@@ -183,8 +261,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":58,
- "nextobjectid":13,
+ "nextlayerid":60,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -195,17 +273,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Pok\u00e9mon Gold - New Bark Town - Woman's house"
+         "value":"Pok\u00e9mon Gold - Generic house"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"j1-woman-house.png"
+         "value":"generic-house.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Woman's house"
+         "value":"Generic house"
         }, 
         {
          "name":"script",
