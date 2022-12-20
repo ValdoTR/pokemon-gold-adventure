@@ -22,17 +22,9 @@ WA.onInit().then(() => {
         const zoneText = "zones-text/"+z
         exitUrl = baseUrl + z
 
-        console.log(zone + " - " + zoneText + " - " + exitUrl)
         WA.room.onLeaveLayer(zone).subscribe(() => WA.room.hideLayer(zoneText))
         WA.room.onEnterLayer(zone).subscribe(() => WA.room.showLayer(zoneText))
     })
-
-    document.addEventListener('keydown', event => {
-        if (event.code === 'Space') {
-            console.log("SPACE")
-            //WA.nav.goToRoom(exitUrl)
-        }
-      })
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
