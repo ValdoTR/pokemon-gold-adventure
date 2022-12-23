@@ -13,7 +13,7 @@ Here is the list of all the maps by walkthrough order:
 - [x] New Bark Town
 - [x] Route 29
 - [x] Cherrygrove City
-- [ ] Routes 30 & 31
+- [x] Routes 30 & 31
 - [ ] Dark Cave
 - [ ] Violet City
 - [ ] Sprout Tower
