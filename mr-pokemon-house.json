@@ -71,7 +71,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"audio\/10_New_Bark_Town.mp3"
+                 "value":"audio\/Mr_Pokemon.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
