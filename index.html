@@ -19,17 +19,14 @@
                 path = path.substr(path, path.length - 'index.html'.length);
             }
             const instanceId = Math.random().toString(36).substring(2, 15);
-            const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.json`;
-            document.getElementById('testMapURL').href = url;
-            document.getElementById('testMapBtnURL').href = url;
-            document.getElementById('testMapURL').innerText = url;
-
-            const jsonURL = window.location.protocol + '//' + window.location.host + path + 'map.json';
-            document.getElementById('jsonURL').innerText = jsonURL;
-
-            const gettingStartedLink = 'https://workadventu.re/getting-started?name=Map&mapUrl=' + jsonURL;
-            document.getElementById('gettingStartedLink').href = gettingStartedLink;
-
+            const johtoURL = `https://play.workadventu.re/_/${instanceId}/${host}${path}johto.json`;
+            document.getElementById('testJohtoMapURL').href = johtoURL;
+            document.getElementById('testJohtoMapBtnURL').href = johtoURL;
+            document.getElementById('testJohtoMapURL').innerText = johtoURL;
+            const kantoURL = `https://play.workadventu.re/_/${instanceId}/${host}${path}kanto.json`;
+            document.getElementById('testKantoMapURL').href = kantoURL;
+            document.getElementById('testKantoMapBtnURL').href = kantoURL;
+            document.getElementById('testKantoMapURL').innerText = kantoURL;
         };
     </script>
     <style>
@@ -219,17 +216,15 @@
         </div>
 
         <div class="nes-container with-title is-centered" style="margin-top: 1rem">
-            <p class="title">Test this map</p>
-            <p>You can test this map at <a id="testMapURL" href="" class="url"></a></p>
-            <p><a id="testMapBtnURL" href="" class="nes-btn is-primary">Test this map</a></p>
+            <p class="title">Test Johto map</p>
+            <p>You can test the Johto map at <a id="testJohtoMapURL" href="" class="url"></a></p>
+            <p><a id="testJohtoMapBtnURL" href="" class="nes-btn is-primary">Test Johto map</a></p>
         </div>
 
         <div class="nes-container with-title is-centered" style="margin-top: 1rem">
-            <p class="title">Happy with the result?</p>
-            <p>Register your room on Workadventu.re</p>
-            <p><a id="gettingStartedLink" href="" class="nes-btn is-primary">Publish this map</a></p>
-            <p>or copy and paste the map URL in WorkAdventu.re's administration panel:</p>
-            <p><span id="jsonURL" class="url"></span></p>
+            <p class="title">Test Kanto map</p>
+            <p>You can test the Kanto map at <a id="testKantoMapURL" href="" class="url"></a></p>
+            <p><a id="testKantoMapBtnURL" href="" class="nes-btn is-primary">Test Kanto map</a></p>
         </div>
     </main>
     <footer><a href="https://workadventu.re/" target="_blank" title="workadventu.re">&copy; WorkAdventure</a></footer>
